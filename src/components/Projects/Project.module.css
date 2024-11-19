@@ -1,0 +1,71 @@
+@import "../../vars.css";
+
+.container { 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    background: linear-gradient(to bottom,var(--color-dark) 50%, var(--color-bg) 50%);    /* margin-top: 49px; */
+    z-index: 1;
+}
+.container h2{
+    font-size: 50px;
+    color: var(--color-secondary);
+    letter-spacing: .15em; 
+    padding: 30px;
+}
+.projectContainer{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.imageContainer{
+    padding: 20px;
+}
+.img{
+ border-radius: 10px;
+ width: 350px;
+ margin: 20px;
+ transition: transform 0.4s ease-in-out, background-color 0.4s ease-in-out;
+}
+.img:hover{
+    box-shadow: 3px 4px 8px rgba(255, 255, 255, 0.16);
+}
+.projectDes{
+    background-color: var(--color-dark);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: var(--color-text);
+    border-radius: 30px;
+    transition: transform 0.4s ease-in-out, background-color 0.4s ease-in-out;
+}
+a{
+    text-decoration: none;
+    color: var(--color-text);
+}
+.projectDes:hover{
+    transform: scale(1.1); 
+    cursor: pointer;
+   }
+
+   @media screen and (max-width: 830px){
+    .projectContainer{
+        flex-direction: column;
+    }
+    .container h2{
+        font-size: 25px;
+    }
+    .img{
+        border-radius: 10px;
+        width: 200px;
+       }
+    .projectDes{
+        background-color: var(--color-text);
+    }
+    a{
+        color: var(--color-dark);
+    }
+   }

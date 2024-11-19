@@ -1,0 +1,11 @@
+:root{
+    --color-primary: #F08080; /* Dark Blue */ 
+    --color-text: #DCDCDC; /* Gainsboro */ 
+    --color-secondary: #FF7F50; /* Orange */ 
+    --color-dark: #1B1D23; /* Dark Charcoal */ 
+    --color-bg: #1C2833; /* Midnight Blue */ 
+    /* --color-primelite: #F08080; Light Blue */
+
+    
+    --font-robot:"Poppins"
+}

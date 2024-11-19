@@ -1,0 +1,26 @@
+@import "../../vars.css";
+
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-dark);
+    padding: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.img{
+    max-width:200px;
+}
+.footerimg{
+    margin: 40px;
+}
+.p{
+    color: var(--color-text);
+    font-size: 12px;
+    font-weight: lighter;
+    padding: 30px;
+}
+
+@media screen and(max-width: 850px){
+    
+}
